@@ -1,0 +1,34 @@
+import static org.junit.Assert.*;
+
+import org.junit.Before;
+import org.junit.Test;
+
+
+public class TestDay {
+	
+	private Day _day;
+	private Month m1;
+	private Month m2;
+	private Month m3;
+	private Month m4;
+	private Month m5;
+	private Month m6;
+	private Month m7;
+	private Month m8;
+	private Month m9;
+	private Month m10;
+	private Month m11;
+	private Month m12;
+	
+	@Before
+	public void initMonth(){
+		
+	}
+	
+	@Test
+	public void testIncrement() {
+//		fail("Not yet implemented");
+		_day = new Day(10,1);
+	}
+
+}

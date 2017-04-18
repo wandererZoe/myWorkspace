@@ -1,0 +1,125 @@
+import org.junit.Test;
+
+
+public class TestDay {
+	
+	public TestDay(){
+		_year = new Year(2015);
+		_yearLeap = new Year(2016);
+		m1 = new Month(1,_year);
+		m2_28 = new Month(2,_year);
+		m2_29 = new Month(2,_yearLeap);
+		m3 = new Month(3,_year);
+		m4 = new Month(4,_year);
+		m5 = new Month(5,_year);
+		m6 = new Month(6,_year);
+		m7 = new Month(7,_year);
+		m8 = new Month(8,_year);
+		m9 = new Month(9,_year);
+		m10 = new Month(10,_year);
+		m11 = new Month(11,_year);
+		m12 = new Month(12,_year);
+	}
+	
+	private Day _day;
+	private Month m1;
+	private Month m2_28;
+	private Month m2_29;
+	private Month m3;
+	private Month m4;
+	private Month m5;
+	private Month m6;
+	private Month m7;
+	private Month m8;
+	private Month m9;
+	private Month m10;
+	private Month m11;
+	private Month m12;
+	private Year _year;
+	private Year _yearLeap;
+	
+	private Month[] months = {m1,m2_28,m3,m4,m5,m6,m7,m8,m9,m10,m11,m12};
+	private Month[] monthsLeap = {m1,m2_29,m3,m4,m5,m6,m7,m8,m9,m10,m11,m12};
+	
+	
+	@Test
+	public void testIncrement() {		
+		for(int i=1;i<=12;i++){
+			_day = new Day(monthsLeap[i-1].getMonthSize()-1,monthsLeap[i-1]);
+			org.junit.Assert.assertTrue(_day.increment());
+			_day = new Day(monthsLeap[i-1].getMonthSize(),monthsLeap[i-1]);
+			org.junit.Assert.assertFalse(_day.isValid());
+		}
+		
+		for(int i=1;i<=12;i++){
+			_day = new Day(months[i-1].getMonthSize()-1,months[i-1]);
+			org.junit.Assert.assertTrue(_day.increment());
+			_day = new Day(months[i-1].getMonthSize(),months[i-1]);
+			org.junit.Assert.assertFalse(_day.isValid());
+		}
+	}
+	
+	@Test
+	public void testGetDay() {
+		_day = new Day(10,m1);
+		org.junit.Assert.assertEquals(10,_day.getDay());
+		
+	}
+	
+	@Test
+	public void testIsValid() {
+		
+		for(int i=1;i<=12;i++){
+			_day = new Day(1,monthsLeap[i-1]);
+			org.junit.Assert.assertTrue(_day.isValid());
+			_day = new Day(10,monthsLeap[i-1]);
+			org.junit.Assert.assertTrue(_day.isValid());
+			_day = new Day(monthsLeap[i-1].getMonthSize(),monthsLeap[i-1]);
+			org.junit.Assert.assertTrue(_day.isValid());
+			
+			try{
+				_day = new Day(monthsLeap[i-1].getMonthSize()+1,monthsLeap[i-1]);
+			}catch(IllegalArgumentException ex){
+				org.junit.Assert.assertNull(_day);
+			}
+			
+			try{
+				_day = new Day(0,monthsLeap[i-1]);
+			}catch(IllegalArgumentException ex){
+				org.junit.Assert.assertNull(_day);
+			}
+		}
+		
+		
+		for(int i=1;i<=12;i++){
+			_day = new Day(1,months[i-1]);
+			org.junit.Assert.assertTrue(_day.isValid());
+			_day = new Day(10,months[i-1]);
+			org.junit.Assert.assertTrue(_day.isValid());
+			_day = new Day(months[i-1].getMonthSize(),months[i-1]);
+			org.junit.Assert.assertTrue(_day.isValid());
+			
+			try{
+				_day = new Day(months[i-1].getMonthSize()+1,months[i-1]);
+			}catch(IllegalArgumentException ex){
+				org.junit.Assert.assertNull(_day);
+			}
+			
+			try{
+				_day = new Day(0,months[i-1]);
+			}catch(IllegalArgumentException ex){
+				org.junit.Assert.assertNull(_day);
+			}
+		}
+	}
+	
+	
+	@Test
+	public void testEquals() {
+		_day = new Day(1,m1);
+		org.junit.Assert.assertFalse(_day.equals(new Day(1,m3)));
+		org.junit.Assert.assertFalse(_day.equals(new Day(2,m3)));
+		org.junit.Assert.assertFalse(_day.equals(new Day(2,m1)));
+		org.junit.Assert.assertTrue(_day.equals(new Day(1,m1)));
+	}
+}
