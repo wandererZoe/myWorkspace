@@ -1,0 +1,27 @@
+import static org.junit.Assert.*;
+
+
+import org.junit.Test;
+
+
+public class TestYear {
+	
+	private Year _year;
+		
+	@Test
+	public void testIsLeap() {
+//		fail("Not yet implemented");
+		_year = new Year(2000);
+		org.junit.Assert.assertTrue(_year.isLeap());
+		_year = new Year(1900);
+		org.junit.Assert.assertFalse(_year.isLeap());
+		_year = new Year(2016);
+		org.junit.Assert.assertTrue(_year.isLeap());
+		_year = new Year(-3);
+		org.junit.Assert.assertTrue(_year.isLeap());
+		_year = new Year(-99);
+		org.junit.Assert.assertFalse(_year.isLeap());
+		_year = new Year(-399);
+		org.junit.Assert.assertTrue(_year.isLeap());
+	}
+}

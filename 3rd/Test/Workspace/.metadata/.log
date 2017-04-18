@@ -1,0 +1,539 @@
+!SESSION 2017-04-18 12:29:11.787 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.8.0_101
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-04-18 12:29:28.371
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\st0001'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY Submit 0 0 2017-04-18 12:29:35.060
+!MESSAGE DEBUG : 	Login as null
+
+!ENTRY Submit 0 0 2017-04-18 12:31:49.749
+!MESSAGE DEBUG : 	The response returns{"mooc-worker-token":"ujziS47miIowqzUeKhoroUcCJDFha5og","login_success":1,"task_time_status":1,"task_begin_time":"2017-04-11 16:35:00.0","task_name":"2017南大软件测试资格训练1","task_id":354,"task_end_time":"2017-04-20 18:35:00.0","worker_id":19403}/n
+
+!ENTRY Submit 0 0 2017-04-18 12:31:52.029
+!MESSAGE DEBUG : 	The response returns {"task_time_status":1,"cases":[{"id":135,"caseType":"branch","weight":1,"caseId":"20161030002","subsiteUrl":"dev.mooctest.net","name":"Nextday","hint":0,"caseUrl":"http://dev.mooctest.net/case.html#/case/download/test/Nextday"}],"task_begin_time":"2017-04-11 16:35:00.0","task_name":"2017南大软件测试资格训练1","task_type":"Developer Testing","task_end_time":"2017-04-20 18:35:00.0"}/n
+
+!ENTRY Submit 0 0 2017-04-18 12:31:54.020
+!MESSAGE DEBUG : 	The response returns {"task_time_status":1,"cases":[{"id":135,"caseType":"branch","weight":1,"caseId":"20161030002","subsiteUrl":"dev.mooctest.net","name":"Nextday","hint":0,"caseUrl":"http://dev.mooctest.net/case.html#/case/download/test/Nextday"}],"task_begin_time":"2017-04-11 16:35:00.0","task_name":"2017南大软件测试资格训练1","task_type":"Developer Testing","task_end_time":"2017-04-20 18:35:00.0"}/n
+
+!ENTRY Submit 0 0 2017-04-18 12:31:56.952
+!MESSAGE DEBUG : 	Downloading http://dev.mooctest.net/case.html#/case/download/test/Nextday to c:/mooctest/projects/354/19403/
+
+!ENTRY Submit 0 0 2017-04-18 12:31:57.289
+!MESSAGE DEBUG : 	Download success!
+
+!ENTRY Submit 0 0 2017-04-18 12:31:57.306
+!MESSAGE DEBUG : 	casePath: c:/mooctest/projects/354/19403/cases/Nextday.zip
+
+!ENTRY Submit 0 0 2017-04-18 12:31:57.744
+!MESSAGE DEBUG : 	c:/mooctest/projects/354/19403/Nextday/.project
+
+!ENTRY Submit 0 0 2017-04-18 12:31:57.793
+!MESSAGE DEBUG : 	Copy C:\mooctest\projects\354\19403\Nextday\src\CalendarUnit.java to C:\mooctest\projects\354\19403\Nextday\src.backup\CalendarUnit.java
+
+!ENTRY Submit 0 0 2017-04-18 12:31:57.798
+!MESSAGE DEBUG : 	Copy C:\mooctest\projects\354\19403\Nextday\src\Date.java to C:\mooctest\projects\354\19403\Nextday\src.backup\Date.java
+
+!ENTRY Submit 0 0 2017-04-18 12:31:57.805
+!MESSAGE DEBUG : 	Copy C:\mooctest\projects\354\19403\Nextday\src\Day.java to C:\mooctest\projects\354\19403\Nextday\src.backup\Day.java
+
+!ENTRY Submit 0 0 2017-04-18 12:31:57.812
+!MESSAGE DEBUG : 	Copy C:\mooctest\projects\354\19403\Nextday\src\Month.java to C:\mooctest\projects\354\19403\Nextday\src.backup\Month.java
+
+!ENTRY Submit 0 0 2017-04-18 12:31:57.817
+!MESSAGE DEBUG : 	Copy C:\mooctest\projects\354\19403\Nextday\src\Nextday.java to C:\mooctest\projects\354\19403\Nextday\src.backup\Nextday.java
+
+!ENTRY Submit 0 0 2017-04-18 12:31:57.822
+!MESSAGE DEBUG : 	Copy C:\mooctest\projects\354\19403\Nextday\src\Year.java to C:\mooctest\projects\354\19403\Nextday\src.backup\Year.java
+
+!ENTRY Submit 0 0 2017-04-18 12:32:00.576
+!MESSAGE DEBUG : 	C:/Users/st0001/Desktop/eclipse-x64/eclipse//plugins/net.mooctest.aut_1.0.0.201704161805.jar
+
+!ENTRY Submit 0 0 2017-04-18 12:32:00.649
+!MESSAGE DEBUG : 	Job completed successfully
+
+!ENTRY Submit 0 0 2017-04-18 12:32:10.060
+!MESSAGE INFO : 	Nextday/Nextday.txt Activating! Backup at 1492489930050
+
+!ENTRY Submit 0 0 2017-04-18 12:32:39.441
+!MESSAGE INFO : 	Nextday/Nextday.txt Activating! Backup at 1492489959432
+
+!ENTRY Submit 0 0 2017-04-18 12:33:19.800
+!MESSAGE INFO : 	Nextday/Nextday.txt Activating! Backup at 1492489999792
+
+!ENTRY Submit 0 0 2017-04-18 12:33:34.476
+!MESSAGE INFO : 	Nextday/src/Date.java Activating! Backup at 1492490014472
+
+!ENTRY Submit 0 0 2017-04-18 12:33:35.152
+!MESSAGE INFO : 	Nextday/src/CalendarUnit.java Activating! Backup at 1492490015145
+
+!ENTRY Submit 0 0 2017-04-18 12:33:37.285
+!MESSAGE INFO : 	Nextday/src/Year.java Activating! Backup at 1492490017277
+
+!ENTRY Submit 0 0 2017-04-18 12:33:41.372
+!MESSAGE INFO : 	Nextday/src/Date.java Activating! Backup at 1492490021366
+
+!ENTRY Submit 0 0 2017-04-18 12:33:42.684
+!MESSAGE INFO : 	Nextday/src/Day.java Activating! Backup at 1492490022675
+
+!ENTRY Submit 0 0 2017-04-18 12:33:44.123
+!MESSAGE INFO : 	Nextday/src/Month.java Activating! Backup at 1492490024113
+
+!ENTRY Submit 0 0 2017-04-18 12:33:45.338
+!MESSAGE INFO : 	Nextday/src/Nextday.java Activating! Backup at 1492490025330
+
+!ENTRY Submit 0 0 2017-04-18 12:33:46.871
+!MESSAGE INFO : 	Nextday/src/Year.java Activating! Backup at 1492490026863
+
+!ENTRY Submit 0 0 2017-04-18 12:33:48.638
+!MESSAGE INFO : 	Nextday/src/CalendarUnit.java Activating! Backup at 1492490028630
+
+!ENTRY Submit 0 0 2017-04-18 12:33:57.932
+!MESSAGE INFO : 	Nextday/src/Date.java Activating! Backup at 1492490037888
+
+!ENTRY Submit 0 0 2017-04-18 12:35:30.906
+!MESSAGE INFO : 	Nextday/src/Day.java Activating! Backup at 1492490130899
+
+!ENTRY Submit 0 0 2017-04-18 12:36:53.664
+!MESSAGE INFO : 	Nextday/src/Month.java Activating! Backup at 1492490213656
+
+!ENTRY Submit 0 0 2017-04-18 12:40:52.334
+!MESSAGE INFO : 	Nextday/src/Month.java Activating! Backup at 1492490452326
+
+!ENTRY Submit 0 0 2017-04-18 12:40:54.699
+!MESSAGE INFO : 	Nextday/src/Nextday.java Activating! Backup at 1492490454692
+
+!ENTRY Submit 0 0 2017-04-18 12:40:57.016
+!MESSAGE INFO : 	Nextday/src/Year.java Activating! Backup at 1492490457009
+
+!ENTRY Submit 0 0 2017-04-18 12:40:58.353
+!MESSAGE INFO : 	Nextday/src/Date.java Activating! Backup at 1492490458344
+
+!ENTRY Submit 0 0 2017-04-18 12:41:28.875
+!MESSAGE INFO : 	Nextday/junit/TestDay.java Activating! Backup at 1492490488851
+
+!ENTRY Submit 0 0 2017-04-18 12:41:39.341
+!MESSAGE INFO : 	Nextday/junit/TestDay.java Activating! Backup at 1492490499337
+
+!ENTRY Submit 0 0 2017-04-18 12:44:48.738
+!MESSAGE INFO : 	Nextday/src/Day.java Activating! Backup at 1492490688732
+
+!ENTRY Submit 0 0 2017-04-18 12:44:50.581
+!MESSAGE INFO : 	Nextday/junit/TestDay.java Activating! Backup at 1492490690577
+
+!ENTRY Submit 0 0 2017-04-18 12:44:50.618
+!MESSAGE INFO : 	Nextday/src/Day.java Activating! Backup at 1492490690613
+
+!ENTRY Submit 0 0 2017-04-18 12:44:52.159
+!MESSAGE INFO : 	Nextday/junit/TestDay.java Activating! Backup at 1492490692155
+
+!ENTRY Submit 0 0 2017-04-18 12:44:53.982
+!MESSAGE INFO : 	Nextday/src/Day.java Activating! Backup at 1492490693973
+
+!ENTRY Submit 0 0 2017-04-18 12:44:55.346
+!MESSAGE INFO : 	Nextday/junit/TestDay.java Activating! Backup at 1492490695335
+
+!ENTRY Submit 0 0 2017-04-18 12:44:59.014
+!MESSAGE INFO : 	Nextday/src/Day.java Activating! Backup at 1492490699004
+
+!ENTRY Submit 0 0 2017-04-18 12:45:01.188
+!MESSAGE INFO : 	Nextday/junit/TestDay.java Activating! Backup at 1492490701179
+
+!ENTRY Submit 0 0 2017-04-18 12:48:03.627
+!MESSAGE INFO : 	Nextday/src/Day.java Activating! Backup at 1492490883609
+
+!ENTRY Submit 0 0 2017-04-18 12:48:05.177
+!MESSAGE INFO : 	Nextday/src/Month.java Activating! Backup at 1492490885171
+
+!ENTRY Submit 0 0 2017-04-18 12:48:08.249
+!MESSAGE INFO : 	Nextday/junit/TestDay.java Activating! Backup at 1492490888228
+
+!ENTRY Submit 0 0 2017-04-18 12:48:27.235
+!MESSAGE INFO : 	Nextday/junit/TestDay.java Activating! Backup at 1492490907226
+
+!ENTRY Submit 0 0 2017-04-18 12:48:28.723
+!MESSAGE INFO : 	Nextday/junit/TestYear.java Activating! Backup at 1492490908716
+
+!ENTRY Submit 0 0 2017-04-18 12:48:30.255
+!MESSAGE INFO : 	Nextday/src/Month.java Activating! Backup at 1492490910245
+
+!ENTRY Submit 0 0 2017-04-18 12:48:32.433
+!MESSAGE INFO : 	Nextday/src/Year.java Activating! Backup at 1492490912425
+
+!ENTRY Submit 0 0 2017-04-18 12:48:48.368
+!MESSAGE INFO : 	Nextday/src/CalendarUnit.java Activating! Backup at 1492490928360
+
+!ENTRY Submit 0 0 2017-04-18 12:48:56.004
+!MESSAGE INFO : 	Nextday/src/Year.java Activating! Backup at 1492490935997
+
+!ENTRY Submit 0 0 2017-04-18 12:49:02.313
+!MESSAGE INFO : 	Nextday/junit/TestYear.java Activating! Backup at 1492490942296
+
+!ENTRY Submit 0 0 2017-04-18 12:49:44.350
+!MESSAGE INFO : 	Nextday/src/Year.java Activating! Backup at 1492490984324
+
+!ENTRY Submit 0 0 2017-04-18 12:49:46.752
+!MESSAGE INFO : 	Nextday/junit/TestYear.java Activating! Backup at 1492490986740
+
+!ENTRY Submit 0 0 2017-04-18 12:50:45.224
+!MESSAGE INFO : 	Nextday/junit/TestDay.java Activating! Backup at 1492491045214
+
+!ENTRY Submit 0 0 2017-04-18 12:50:45.993
+!MESSAGE INFO : 	Nextday/junit/TestYear.java Activating! Backup at 1492491045984
+
+!ENTRY org.eclipse.core.resources 4 2 2017-04-18 12:54:08.287
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 0
+java.lang.ArrayIndexOutOfBoundsException: 0
+	at net.mooctest.plugin.resources.sbfl.monitor.ResourceChangeListener.resourceChanged(ResourceChangeListener.java:20)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:291)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:285)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:149)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:378)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1498)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2322)
+	at org.eclipse.debug.core.model.Breakpoint.run(Breakpoint.java:357)
+	at org.eclipse.jdt.internal.debug.core.breakpoints.JavaExceptionBreakpoint.<init>(JavaExceptionBreakpoint.java:174)
+	at org.eclipse.jdt.debug.core.JDIDebugModel.createExceptionBreakpoint(JDIDebugModel.java:576)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugOptionsManager$InitJob.run(JavaDebugOptionsManager.java:154)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.core.resources 4 2 2017-04-18 12:54:08.292
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 0
+java.lang.ArrayIndexOutOfBoundsException: 0
+	at net.mooctest.plugin.resources.sbfl.monitor.ResourceChangeListener.resourceChanged(ResourceChangeListener.java:20)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:291)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:285)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:149)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:378)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1498)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2322)
+	at org.eclipse.debug.core.model.Breakpoint.setAttributes(Breakpoint.java:255)
+	at org.eclipse.debug.core.model.Breakpoint.setPersisted(Breakpoint.java:162)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugOptionsManager$InitJob.run(JavaDebugOptionsManager.java:155)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.core.resources 4 2 2017-04-18 12:54:08.297
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 0
+java.lang.ArrayIndexOutOfBoundsException: 0
+	at net.mooctest.plugin.resources.sbfl.monitor.ResourceChangeListener.resourceChanged(ResourceChangeListener.java:20)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:291)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:285)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:149)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:378)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1498)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2322)
+	at org.eclipse.debug.core.model.Breakpoint.setAttribute(Breakpoint.java:232)
+	at org.eclipse.jdt.internal.debug.core.breakpoints.JavaBreakpoint.writeBreakpointListeners(JavaBreakpoint.java:1392)
+	at org.eclipse.jdt.internal.debug.core.breakpoints.JavaBreakpoint.addBreakpointListener(JavaBreakpoint.java:1373)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugOptionsManager$InitJob.run(JavaDebugOptionsManager.java:156)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.core.resources 4 2 2017-04-18 12:54:08.300
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 0
+java.lang.ArrayIndexOutOfBoundsException: 0
+	at net.mooctest.plugin.resources.sbfl.monitor.ResourceChangeListener.resourceChanged(ResourceChangeListener.java:20)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:291)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:285)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:149)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:378)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1498)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2322)
+	at org.eclipse.debug.core.model.Breakpoint.run(Breakpoint.java:357)
+	at org.eclipse.jdt.internal.debug.core.breakpoints.JavaExceptionBreakpoint.<init>(JavaExceptionBreakpoint.java:174)
+	at org.eclipse.jdt.debug.core.JDIDebugModel.createExceptionBreakpoint(JDIDebugModel.java:576)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugOptionsManager$InitJob.run(JavaDebugOptionsManager.java:164)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.core.resources 4 2 2017-04-18 12:54:08.306
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 0
+java.lang.ArrayIndexOutOfBoundsException: 0
+	at net.mooctest.plugin.resources.sbfl.monitor.ResourceChangeListener.resourceChanged(ResourceChangeListener.java:20)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:291)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:285)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:149)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:378)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1498)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2322)
+	at org.eclipse.debug.core.model.Breakpoint.setAttribute(Breakpoint.java:186)
+	at org.eclipse.jdt.internal.debug.core.breakpoints.JavaExceptionBreakpoint.setSuspendOnSubclasses(JavaExceptionBreakpoint.java:275)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugOptionsManager$InitJob.run(JavaDebugOptionsManager.java:165)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.core.resources 4 2 2017-04-18 12:54:08.311
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 0
+java.lang.ArrayIndexOutOfBoundsException: 0
+	at net.mooctest.plugin.resources.sbfl.monitor.ResourceChangeListener.resourceChanged(ResourceChangeListener.java:20)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:291)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:285)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:149)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:378)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1498)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2322)
+	at org.eclipse.debug.core.model.Breakpoint.setAttributes(Breakpoint.java:255)
+	at org.eclipse.debug.core.model.Breakpoint.setPersisted(Breakpoint.java:162)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugOptionsManager$InitJob.run(JavaDebugOptionsManager.java:166)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.core.resources 4 2 2017-04-18 12:54:08.330
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 0
+java.lang.ArrayIndexOutOfBoundsException: 0
+	at net.mooctest.plugin.resources.sbfl.monitor.ResourceChangeListener.resourceChanged(ResourceChangeListener.java:20)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:291)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:285)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:149)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:378)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1498)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2322)
+	at org.eclipse.debug.core.model.Breakpoint.setAttribute(Breakpoint.java:232)
+	at org.eclipse.jdt.internal.debug.core.breakpoints.JavaBreakpoint.writeBreakpointListeners(JavaBreakpoint.java:1392)
+	at org.eclipse.jdt.internal.debug.core.breakpoints.JavaBreakpoint.addBreakpointListener(JavaBreakpoint.java:1373)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugOptionsManager$InitJob.run(JavaDebugOptionsManager.java:167)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY Submit 0 0 2017-04-18 12:54:21.644
+!MESSAGE INFO : 	Nextday/junit/TestYear.java Activating! Backup at 1492491261629
+
+!ENTRY Submit 0 0 2017-04-18 12:54:51.330
+!MESSAGE INFO : 	Nextday/src/Year.java Activating! Backup at 1492491291314
+
+!ENTRY Submit 0 0 2017-04-18 12:55:10.701
+!MESSAGE INFO : 	Nextday/junit/TestYear.java Activating! Backup at 1492491310685
+
+!ENTRY Submit 0 0 2017-04-18 12:55:42.509
+!MESSAGE INFO : 	Nextday/Nextday.txt Activating! Backup at 1492491342500
+
+!ENTRY Submit 0 0 2017-04-18 12:55:53.914
+!MESSAGE INFO : 	Nextday/junit/TestYear.java Activating! Backup at 1492491353905
+
+!ENTRY Submit 0 0 2017-04-18 12:56:15.644
+!MESSAGE INFO : 	Nextday/src/Year.java Activating! Backup at 1492491375629
+
+!ENTRY Submit 0 0 2017-04-18 12:56:54.058
+!MESSAGE INFO : 	Nextday/junit/TestYear.java Activating! Backup at 1492491414046
+
+!ENTRY Submit 0 0 2017-04-18 12:57:42.525
+!MESSAGE INFO : 	Nextday/junit/TestYear.java Activating! Backup at 1492491462506
+
+!ENTRY Submit 0 0 2017-04-18 12:58:02.912
+!MESSAGE INFO : 	Nextday/src/Year.java Activating! Backup at 1492491482900
+
+!ENTRY Submit 0 0 2017-04-18 12:58:56.523
+!MESSAGE DEBUG : 	Copy C:\mooctest\projects\354\19403\Nextday\src\Year.java to C:\mooctest\projects\354\19403\Nextday\src.backup\Year.java
+
+!ENTRY Submit 0 0 2017-04-18 12:59:01.181
+!MESSAGE INFO : 	Nextday/junit/TestYear.java Activating! Backup at 1492491541164
+
+!ENTRY Submit 0 0 2017-04-18 12:59:09.745
+!MESSAGE INFO : 	Nextday/src/Year.java Activating! Backup at 1492491549725
+
+!ENTRY Submit 0 0 2017-04-18 12:59:33.857
+!MESSAGE INFO : 	Nextday/junit/TestYear.java Activating! Backup at 1492491573838
+
+!ENTRY Submit 0 0 2017-04-18 13:00:03.534
+!MESSAGE DEBUG : 	Copy C:\mooctest\projects\354\19403\Nextday\src\Year.java to C:\mooctest\projects\354\19403\Nextday\src.backup\Year.java
+
+!ENTRY Submit 0 0 2017-04-18 13:00:06.924
+!MESSAGE INFO : 	Nextday/src/Year.java Activating! Backup at 1492491606904
+
+!ENTRY Submit 0 0 2017-04-18 13:00:45.635
+!MESSAGE DEBUG : 	Copy C:\mooctest\projects\354\19403\Nextday\src\Year.java to C:\mooctest\projects\354\19403\Nextday\src.backup\Year.java
+
+!ENTRY Submit 0 0 2017-04-18 13:02:13.992
+!MESSAGE INFO : 	Nextday/junit/TestYear.java Activating! Backup at 1492491733968
+
+!ENTRY Submit 0 0 2017-04-18 13:02:29.514
+!MESSAGE DEBUG : 	Copy C:\mooctest\projects\354\19403\Nextday\src\Year.java to C:\mooctest\projects\354\19403\Nextday\src.backup\Year.java
+
+!ENTRY Submit 0 0 2017-04-18 13:02:41.496
+!MESSAGE INFO : 	Nextday/src/Year.java Activating! Backup at 1492491761475
+
+!ENTRY Submit 0 0 2017-04-18 13:03:24.532
+!MESSAGE INFO : 	Nextday/junit/TestYear.java Activating! Backup at 1492491804516
+
+!ENTRY Submit 0 0 2017-04-18 13:06:07.772
+!MESSAGE INFO : 	Nextday/src/Year.java Activating! Backup at 1492491967756
+
+!ENTRY Submit 0 0 2017-04-18 13:06:36.467
+!MESSAGE INFO : 	Nextday/junit/TestYear.java Activating! Backup at 1492491996444
+
+!ENTRY Submit 0 0 2017-04-18 13:07:04.121
+!MESSAGE INFO : 	Nextday/src/Year.java Activating! Backup at 1492492024090
+
+!ENTRY Submit 0 0 2017-04-18 13:13:19.332
+!MESSAGE INFO : 	Nextday/src/Year.java Activating! Backup at 1492492399309
+
+!ENTRY Submit 0 0 2017-04-18 13:13:37.083
+!MESSAGE INFO : 	Nextday/junit/TestYear.java Activating! Backup at 1492492417071
+
+!ENTRY Submit 0 0 2017-04-18 13:13:40.242
+!MESSAGE INFO : 	Nextday/src/Year.java Activating! Backup at 1492492420221
+
+!ENTRY Submit 0 0 2017-04-18 13:13:45.024
+!MESSAGE INFO : 	Nextday/junit/TestYear.java Activating! Backup at 1492492425010
+
+!ENTRY Submit 0 0 2017-04-18 13:14:15.755
+!MESSAGE DEBUG : 	Copy C:\mooctest\projects\354\19403\Nextday\src\Year.java to C:\mooctest\projects\354\19403\Nextday\src.backup\Year.java
+
+!ENTRY Submit 0 0 2017-04-18 13:14:21.428
+!MESSAGE INFO : 	Nextday/src/Year.java Activating! Backup at 1492492461416
+
+!ENTRY Submit 0 0 2017-04-18 13:14:24.605
+!MESSAGE INFO : 	Nextday/junit/TestYear.java Activating! Backup at 1492492464564
+
+!ENTRY Submit 0 0 2017-04-18 13:14:38.192
+!MESSAGE INFO : 	Nextday/src/Year.java Activating! Backup at 1492492478164
+
+!ENTRY Submit 0 0 2017-04-18 13:14:41.809
+!MESSAGE INFO : 	Nextday/junit/TestYear.java Activating! Backup at 1492492481794
+
+!ENTRY Submit 0 0 2017-04-18 13:15:45.975
+!MESSAGE INFO : 	Nextday/src/Year.java Activating! Backup at 1492492545932
+
+!ENTRY Submit 0 0 2017-04-18 13:15:48.922
+!MESSAGE INFO : 	Nextday/junit/TestYear.java Activating! Backup at 1492492548910
+
+!ENTRY Submit 0 0 2017-04-18 13:19:41.018
+!MESSAGE INFO : 	Nextday/src/Year.java Activating! Backup at 1492492781001
+
+!ENTRY Submit 0 0 2017-04-18 13:19:43.998
+!MESSAGE INFO : 	Nextday/junit/TestYear.java Activating! Backup at 1492492783983
+
+!ENTRY Submit 0 0 2017-04-18 13:20:51.685
+!MESSAGE INFO : 	Nextday/src/Year.java Activating! Backup at 1492492851670
+
+!ENTRY Submit 0 0 2017-04-18 13:20:52.188
+!MESSAGE INFO : 	Nextday/junit/TestYear.java Activating! Backup at 1492492852179
+
+!ENTRY Submit 0 0 2017-04-18 13:21:25.333
+!MESSAGE INFO : 	Nextday/src/Year.java Activating! Backup at 1492492885325
+
+!ENTRY Submit 0 0 2017-04-18 13:21:32.187
+!MESSAGE INFO : 	Nextday/src/Year.java Activating! Backup at 1492492892178
+
+!ENTRY Submit 0 0 2017-04-18 13:21:32.949
+!MESSAGE INFO : 	Nextday/src/Year.java Activating! Backup at 1492492892939
+
+!ENTRY Submit 0 0 2017-04-18 13:21:33.637
+!MESSAGE INFO : 	Nextday/junit/TestYear.java Activating! Backup at 1492492893625
+
+!ENTRY Submit 0 0 2017-04-18 13:21:40.744
+!MESSAGE INFO : 	Nextday/junit/TestYear.java Activating! Backup at 1492492900729
+
+!ENTRY Submit 0 0 2017-04-18 13:22:00.380
+!MESSAGE INFO : 	Nextday/src/Year.java Activating! Backup at 1492492920371
+
+!ENTRY Submit 0 0 2017-04-18 13:22:03.627
+!MESSAGE INFO : 	Nextday/junit/TestYear.java Activating! Backup at 1492492923615
+
+!ENTRY Submit 0 0 2017-04-18 13:23:32.823
+!MESSAGE INFO : 	Nextday/junit/TestYear.java Activating! Backup at 1492493012804
+
+!ENTRY Submit 0 0 2017-04-18 13:26:20.987
+!MESSAGE INFO : 	Nextday/src/Year.java Activating! Backup at 1492493180967
+
+!ENTRY Submit 0 0 2017-04-18 13:26:25.045
+!MESSAGE INFO : 	Nextday/junit/TestYear.java Activating! Backup at 1492493185035
+
+!ENTRY Submit 0 0 2017-04-18 13:26:46.825
+!MESSAGE INFO : 	Nextday/src/Year.java Activating! Backup at 1492493206811
+
+!ENTRY Submit 0 0 2017-04-18 13:26:47.474
+!MESSAGE INFO : 	Nextday/junit/TestYear.java Activating! Backup at 1492493207465
+
+!ENTRY Submit 0 0 2017-04-18 13:30:47.983
+!MESSAGE INFO : 	Nextday/src/Year.java Activating! Backup at 1492493447953
+
+!ENTRY Submit 0 0 2017-04-18 13:30:51.030
+!MESSAGE INFO : 	Nextday/junit/TestYear.java Activating! Backup at 1492493451019
+
+!ENTRY Submit 0 0 2017-04-18 13:31:58.516
+!MESSAGE INFO : 	Nextday/src/Year.java Activating! Backup at 1492493518497
+
+!ENTRY Submit 0 0 2017-04-18 13:32:10.948
+!MESSAGE INFO : 	Nextday/junit/TestYear.java Activating! Backup at 1492493530934
+
+!ENTRY Submit 0 0 2017-04-18 13:32:30.933
+!MESSAGE INFO : 	Nextday/src/Year.java Activating! Backup at 1492493550923
+
+!ENTRY Submit 0 0 2017-04-18 13:32:33.560
+!MESSAGE INFO : 	Nextday/junit/TestYear.java Activating! Backup at 1492493553551
+
+!ENTRY Submit 0 0 2017-04-18 13:35:36.717
+!MESSAGE INFO : 	Nextday/src/Year.java Activating! Backup at 1492493736706
+
+!ENTRY Submit 0 0 2017-04-18 13:35:38.648
+!MESSAGE INFO : 	Nextday/junit/TestYear.java Activating! Backup at 1492493738535
+
+!ENTRY Submit 0 0 2017-04-18 13:37:18.637
+!MESSAGE INFO : 	Nextday/junit/TestDay.java Activating! Backup at 1492493838630
+
+!ENTRY Submit 0 0 2017-04-18 13:37:33.143
+!MESSAGE INFO : 	Nextday/junit/TestMonth.java Activating! Backup at 1492493853135
+
+!ENTRY Submit 0 0 2017-04-18 13:37:35.935
+!MESSAGE INFO : 	Nextday/src/Year.java Activating! Backup at 1492493855923
+
+!ENTRY Submit 0 0 2017-04-18 13:37:36.021
+!MESSAGE INFO : 	Nextday/src/CalendarUnit.java Activating! Backup at 1492493856013
+
+!ENTRY Submit 0 0 2017-04-18 13:37:37.707
+!MESSAGE INFO : 	Nextday/src/Month.java Activating! Backup at 1492493857700
+
+!ENTRY Submit 0 0 2017-04-18 13:38:10.671
+!MESSAGE INFO : 	Nextday/junit/TestMonth.java Activating! Backup at 1492493890660
+
+!ENTRY Submit 0 0 2017-04-18 13:38:49.420
+!MESSAGE INFO : 	Nextday/junit/TestYear.java Activating! Backup at 1492493929409
+
+!ENTRY Submit 0 0 2017-04-18 13:38:50.275
+!MESSAGE INFO : 	Nextday/src/Month.java Activating! Backup at 1492493930259
+
+!ENTRY Submit 0 0 2017-04-18 13:38:52.714
+!MESSAGE INFO : 	Nextday/src/Year.java Activating! Backup at 1492493932705
+
+!ENTRY Submit 0 0 2017-04-18 13:38:57.509
+!MESSAGE INFO : 	Nextday/junit/TestYear.java Activating! Backup at 1492493937497
+
+!ENTRY Submit 0 0 2017-04-18 13:40:06.383
+!MESSAGE INFO : 	Nextday/junit/TestMonth.java Activating! Backup at 1492494006375
+
+!ENTRY Submit 0 0 2017-04-18 13:40:08.484
+!MESSAGE INFO : 	Nextday/src/Year.java Activating! Backup at 1492494008472
+
+!ENTRY Submit 0 0 2017-04-18 13:40:09.317
+!MESSAGE INFO : 	Nextday/src/Month.java Activating! Backup at 1492494009310
+
+!ENTRY Submit 0 0 2017-04-18 13:40:16.699
+!MESSAGE INFO : 	Nextday/junit/TestMonth.java Activating! Backup at 1492494016689
+
+!ENTRY Submit 0 0 2017-04-18 13:40:16.781
+!MESSAGE INFO : 	Nextday/junit/TestDay.java Activating! Backup at 1492494016774
+
+!ENTRY Submit 0 0 2017-04-18 13:40:35.783
+!MESSAGE INFO : 	Nextday/junit/TestDay.java Activating! Backup at 1492494035774
+
+!ENTRY Submit 0 0 2017-04-18 13:40:36.960
+!MESSAGE INFO : 	Nextday/junit/TestMonth.java Activating! Backup at 1492494036952
