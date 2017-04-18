@@ -1,0 +1,61 @@
+import org.junit.Test;
+
+
+public class TestDate {
+	
+	private Date _date;
+	
+	public TestDate(){		
+		_date = new Date(1,5,2015);			
+	}
+	
+	
+//	@Test
+//	public void testIncrement(){
+//		
+//	}
+	
+	@Test
+	public void testPrintDate() {		
+		_date.printDate();
+	}
+	
+	
+	@Test
+	public void testGetDay() {
+		Day day = new Day(5,new Month(1,new Year(2015)));
+		org.junit.Assert.assertEquals(day,_date.getDay());
+		
+	}
+	@Test
+	public void testGetMonth() {
+		Month month = new Month(1,new Year(2015));
+		org.junit.Assert.assertEquals(month,_date.getMonth());
+		
+	}
+	@Test
+	public void testGetYear() {
+		Year year = new Year(2015);
+		org.junit.Assert.assertEquals(year,_date.getYear());
+		
+	}
+	
+
+	@Test
+	public void testEquals() {	
+		org.junit.Assert.assertTrue(_date.equals(new Date(1,5,2015)));
+		org.junit.Assert.assertFalse(_date.equals(new Date(2,5,2015)));
+		org.junit.Assert.assertFalse(_date.equals(new Date(1,6,2015)));
+		org.junit.Assert.assertFalse(_date.equals(new Date(2,6,2015)));
+		org.junit.Assert.assertFalse(_date.equals(new Date(1,5,2016)));
+		org.junit.Assert.assertFalse(_date.equals(new Date(2,5,2016)));
+		org.junit.Assert.assertFalse(_date.equals(new Date(21,6,2016)));
+		org.junit.Assert.assertFalse(_date.equals(new Date(2,6,2016)));
+	}
+	
+	
+	@Test
+	public void testToString() {
+		org.junit.Assert.assertEquals("1/5/2015",_date.toString());
+	}
+}
